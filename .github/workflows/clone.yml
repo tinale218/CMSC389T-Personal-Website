@@ -14,5 +14,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd ../pub/
+            cd /pub/tinale03/
             git clone git@github.com:tinale218/CMSC389T-Personal-Website.git
